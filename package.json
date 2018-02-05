@@ -1,0 +1,20 @@
+{
+  "name": "generator-form",
+  "version": "0.0.1",
+  "description": "form表单代码生成器",
+  "files": [
+    "empty"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yueshenyuan/form-generator.git"
+  },
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "yeoman-generator": "^0.22.6",
+    "yosay": "^2.0.0"
+  }
+}

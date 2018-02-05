@@ -1,0 +1,348 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/qitmac000420/.nvm/versions/node/v5.10.0/bin/node',
+1 verbose cli   '/Users/qitmac000420/.nvm/versions/node/v5.10.0/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--global',
+1 verbose cli   'generator-created',
+1 verbose cli   'generator-generator',
+1 verbose cli   'generator-wormhole',
+1 verbose cli   'generator-cui',
+1 verbose cli   'generator-fountain-vue',
+1 verbose cli   'generator-fountain-webapp' ]
+2 info using npm@3.8.3
+3 info using node@v5.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData generator-created
+8 silly fetchPackageMetaData generator-generator
+9 silly fetchPackageMetaData generator-wormhole
+10 silly fetchPackageMetaData generator-cui
+11 silly fetchPackageMetaData generator-fountain-vue
+12 silly fetchPackageMetaData generator-fountain-webapp
+13 silly fetchNamedPackageData generator-generator
+14 silly mapToRegistry name generator-generator
+15 silly mapToRegistry using default registry
+16 silly mapToRegistry registry https://registry.npmjs.org/
+17 silly mapToRegistry data Result {
+17 silly mapToRegistry   raw: 'generator-generator',
+17 silly mapToRegistry   scope: null,
+17 silly mapToRegistry   name: 'generator-generator',
+17 silly mapToRegistry   rawSpec: '',
+17 silly mapToRegistry   spec: 'latest',
+17 silly mapToRegistry   type: 'tag' }
+18 silly mapToRegistry uri https://registry.npmjs.org/generator-generator
+19 silly fetchNamedPackageData generator-created
+20 silly mapToRegistry name generator-created
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'generator-created',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   name: 'generator-created',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/generator-created
+25 silly fetchNamedPackageData generator-wormhole
+26 silly mapToRegistry name generator-wormhole
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry data Result {
+29 silly mapToRegistry   raw: 'generator-wormhole',
+29 silly mapToRegistry   scope: null,
+29 silly mapToRegistry   name: 'generator-wormhole',
+29 silly mapToRegistry   rawSpec: '',
+29 silly mapToRegistry   spec: 'latest',
+29 silly mapToRegistry   type: 'tag' }
+30 silly mapToRegistry uri https://registry.npmjs.org/generator-wormhole
+31 silly fetchNamedPackageData generator-cui
+32 silly mapToRegistry name generator-cui
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry data Result {
+35 silly mapToRegistry   raw: 'generator-cui',
+35 silly mapToRegistry   scope: null,
+35 silly mapToRegistry   name: 'generator-cui',
+35 silly mapToRegistry   rawSpec: '',
+35 silly mapToRegistry   spec: 'latest',
+35 silly mapToRegistry   type: 'tag' }
+36 silly mapToRegistry uri https://registry.npmjs.org/generator-cui
+37 silly fetchNamedPackageData generator-fountain-vue
+38 silly mapToRegistry name generator-fountain-vue
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry https://registry.npmjs.org/
+41 silly mapToRegistry data Result {
+41 silly mapToRegistry   raw: 'generator-fountain-vue',
+41 silly mapToRegistry   scope: null,
+41 silly mapToRegistry   name: 'generator-fountain-vue',
+41 silly mapToRegistry   rawSpec: '',
+41 silly mapToRegistry   spec: 'latest',
+41 silly mapToRegistry   type: 'tag' }
+42 silly mapToRegistry uri https://registry.npmjs.org/generator-fountain-vue
+43 silly fetchNamedPackageData generator-fountain-webapp
+44 silly mapToRegistry name generator-fountain-webapp
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry data Result {
+47 silly mapToRegistry   raw: 'generator-fountain-webapp',
+47 silly mapToRegistry   scope: null,
+47 silly mapToRegistry   name: 'generator-fountain-webapp',
+47 silly mapToRegistry   rawSpec: '',
+47 silly mapToRegistry   spec: 'latest',
+47 silly mapToRegistry   type: 'tag' }
+48 silly mapToRegistry uri https://registry.npmjs.org/generator-fountain-webapp
+49 verbose request uri https://registry.npmjs.org/generator-created
+50 verbose request no auth needed
+51 info attempt registry request try #1 at 15:26:28
+52 verbose request using bearer token for auth
+53 verbose request id 2eb5fdca4b6e82d6
+54 http request GET https://registry.npmjs.org/generator-created
+55 verbose request uri https://registry.npmjs.org/generator-cui
+56 verbose request no auth needed
+57 info attempt registry request try #1 at 15:26:28
+58 verbose request using bearer token for auth
+59 http request GET https://registry.npmjs.org/generator-cui
+60 verbose request uri https://registry.npmjs.org/generator-wormhole
+61 verbose request no auth needed
+62 info attempt registry request try #1 at 15:26:28
+63 verbose request using bearer token for auth
+64 verbose etag "543259c4-2b40"
+65 verbose lastModified Mon, 6 Oct 2014 8:58:44 GMT
+66 http request GET https://registry.npmjs.org/generator-wormhole
+67 verbose request uri https://registry.npmjs.org/generator-fountain-vue
+68 verbose request no auth needed
+69 info attempt registry request try #1 at 15:26:28
+70 verbose request using bearer token for auth
+71 verbose etag "58bd02b1-3af1"
+72 verbose lastModified Mon, 6 Mar 2017 6:33:21 GMT
+73 http request GET https://registry.npmjs.org/generator-fountain-vue
+74 verbose request uri https://registry.npmjs.org/generator-generator
+75 verbose request no auth needed
+76 info attempt registry request try #1 at 15:26:28
+77 verbose request using bearer token for auth
+78 verbose etag "59e1acd7-c277"
+79 verbose lastModified Sat, 14 Oct 2017 6:21:11 GMT
+80 http request GET https://registry.npmjs.org/generator-generator
+81 verbose request uri https://registry.npmjs.org/generator-fountain-webapp
+82 verbose request no auth needed
+83 info attempt registry request try #1 at 15:26:28
+84 verbose request using bearer token for auth
+85 verbose etag "595c2a25-c443"
+86 verbose lastModified Tue, 4 Jul 2017 23:52:05 GMT
+87 http request GET https://registry.npmjs.org/generator-fountain-webapp
+88 http 304 https://registry.npmjs.org/generator-fountain-vue
+89 verbose headers { date: 'Mon, 05 Feb 2018 07:24:05 GMT',
+89 verbose headers   via: '1.1 varnish',
+89 verbose headers   'cache-control': 'max-age=300',
+89 verbose headers   etag: '"58bd02b1-3af1"',
+89 verbose headers   age: '0',
+89 verbose headers   connection: 'keep-alive',
+89 verbose headers   'x-served-by': 'cache-hkg17925-HKG',
+89 verbose headers   'x-cache': 'MISS',
+89 verbose headers   'x-cache-hits': '0',
+89 verbose headers   'x-timer': 'S1517815445.349247,VS0,VE231',
+89 verbose headers   vary: 'Accept-Encoding, Accept' }
+90 silly get cb [ 304,
+90 silly get   { date: 'Mon, 05 Feb 2018 07:24:05 GMT',
+90 silly get     via: '1.1 varnish',
+90 silly get     'cache-control': 'max-age=300',
+90 silly get     etag: '"58bd02b1-3af1"',
+90 silly get     age: '0',
+90 silly get     connection: 'keep-alive',
+90 silly get     'x-served-by': 'cache-hkg17925-HKG',
+90 silly get     'x-cache': 'MISS',
+90 silly get     'x-cache-hits': '0',
+90 silly get     'x-timer': 'S1517815445.349247,VS0,VE231',
+90 silly get     vary: 'Accept-Encoding, Accept' } ]
+91 verbose etag https://registry.npmjs.org/generator-fountain-vue from cache
+92 verbose get saving generator-fountain-vue to /Users/qitmac000420/.npm/registry.npmjs.org/generator-fountain-vue/.cache.json
+93 verbose correctMkdir /Users/qitmac000420/.npm correctMkdir not in flight; initializing
+94 http 304 https://registry.npmjs.org/generator-generator
+95 verbose headers { date: 'Mon, 05 Feb 2018 07:24:05 GMT',
+95 verbose headers   via: '1.1 varnish',
+95 verbose headers   'cache-control': 'max-age=300',
+95 verbose headers   etag: '"59e1acd7-c277"',
+95 verbose headers   age: '0',
+95 verbose headers   connection: 'keep-alive',
+95 verbose headers   'x-served-by': 'cache-hkg17922-HKG',
+95 verbose headers   'x-cache': 'MISS',
+95 verbose headers   'x-cache-hits': '0',
+95 verbose headers   'x-timer': 'S1517815445.353786,VS0,VE257',
+95 verbose headers   vary: 'Accept-Encoding, Accept' }
+96 silly get cb [ 304,
+96 silly get   { date: 'Mon, 05 Feb 2018 07:24:05 GMT',
+96 silly get     via: '1.1 varnish',
+96 silly get     'cache-control': 'max-age=300',
+96 silly get     etag: '"59e1acd7-c277"',
+96 silly get     age: '0',
+96 silly get     connection: 'keep-alive',
+96 silly get     'x-served-by': 'cache-hkg17922-HKG',
+96 silly get     'x-cache': 'MISS',
+96 silly get     'x-cache-hits': '0',
+96 silly get     'x-timer': 'S1517815445.353786,VS0,VE257',
+96 silly get     vary: 'Accept-Encoding, Accept' } ]
+97 verbose etag https://registry.npmjs.org/generator-generator from cache
+98 verbose get saving generator-generator to /Users/qitmac000420/.npm/registry.npmjs.org/generator-generator/.cache.json
+99 verbose correctMkdir /Users/qitmac000420/.npm correctMkdir not in flight; initializing
+100 http 304 https://registry.npmjs.org/generator-fountain-webapp
+101 verbose headers { date: 'Mon, 05 Feb 2018 07:24:05 GMT',
+101 verbose headers   via: '1.1 varnish',
+101 verbose headers   'cache-control': 'max-age=300',
+101 verbose headers   etag: '"595c2a25-c443"',
+101 verbose headers   age: '0',
+101 verbose headers   connection: 'keep-alive',
+101 verbose headers   'x-served-by': 'cache-hkg17933-HKG',
+101 verbose headers   'x-cache': 'MISS',
+101 verbose headers   'x-cache-hits': '0',
+101 verbose headers   'x-timer': 'S1517815445.383654,VS0,VE273',
+101 verbose headers   vary: 'Accept-Encoding, Accept' }
+102 silly get cb [ 304,
+102 silly get   { date: 'Mon, 05 Feb 2018 07:24:05 GMT',
+102 silly get     via: '1.1 varnish',
+102 silly get     'cache-control': 'max-age=300',
+102 silly get     etag: '"595c2a25-c443"',
+102 silly get     age: '0',
+102 silly get     connection: 'keep-alive',
+102 silly get     'x-served-by': 'cache-hkg17933-HKG',
+102 silly get     'x-cache': 'MISS',
+102 silly get     'x-cache-hits': '0',
+102 silly get     'x-timer': 'S1517815445.383654,VS0,VE273',
+102 silly get     vary: 'Accept-Encoding, Accept' } ]
+103 verbose etag https://registry.npmjs.org/generator-fountain-webapp from cache
+104 verbose get saving generator-fountain-webapp to /Users/qitmac000420/.npm/registry.npmjs.org/generator-fountain-webapp/.cache.json
+105 verbose correctMkdir /Users/qitmac000420/.npm correctMkdir not in flight; initializing
+106 http 304 https://registry.npmjs.org/generator-wormhole
+107 verbose headers { date: 'Mon, 05 Feb 2018 07:24:05 GMT',
+107 verbose headers   via: '1.1 varnish',
+107 verbose headers   'cache-control': 'max-age=300',
+107 verbose headers   etag: '"543259c4-2b40"',
+107 verbose headers   age: '0',
+107 verbose headers   connection: 'keep-alive',
+107 verbose headers   'x-served-by': 'cache-hkg17935-HKG',
+107 verbose headers   'x-cache': 'MISS',
+107 verbose headers   'x-cache-hits': '0',
+107 verbose headers   'x-timer': 'S1517815446.897066,VS0,VE255',
+107 verbose headers   vary: 'Accept-Encoding, Accept' }
+108 silly get cb [ 304,
+108 silly get   { date: 'Mon, 05 Feb 2018 07:24:05 GMT',
+108 silly get     via: '1.1 varnish',
+108 silly get     'cache-control': 'max-age=300',
+108 silly get     etag: '"543259c4-2b40"',
+108 silly get     age: '0',
+108 silly get     connection: 'keep-alive',
+108 silly get     'x-served-by': 'cache-hkg17935-HKG',
+108 silly get     'x-cache': 'MISS',
+108 silly get     'x-cache-hits': '0',
+108 silly get     'x-timer': 'S1517815446.897066,VS0,VE255',
+108 silly get     vary: 'Accept-Encoding, Accept' } ]
+109 verbose etag https://registry.npmjs.org/generator-wormhole from cache
+110 verbose get saving generator-wormhole to /Users/qitmac000420/.npm/registry.npmjs.org/generator-wormhole/.cache.json
+111 verbose correctMkdir /Users/qitmac000420/.npm correctMkdir not in flight; initializing
+112 http 404 https://registry.npmjs.org/generator-created
+113 verbose headers { 'content-type': 'application/json',
+113 verbose headers   'cache-control': 'max-age=0',
+113 verbose headers   'content-length': '2',
+113 verbose headers   'accept-ranges': 'bytes',
+113 verbose headers   date: 'Mon, 05 Feb 2018 07:24:07 GMT',
+113 verbose headers   via: '1.1 varnish',
+113 verbose headers   connection: 'keep-alive',
+113 verbose headers   'x-served-by': 'cache-hkg17935-HKG',
+113 verbose headers   'x-cache': 'MISS',
+113 verbose headers   'x-cache-hits': '0',
+113 verbose headers   'x-timer': 'S1517815446.855518,VS0,VE1819',
+113 verbose headers   vary: 'Accept-Encoding' }
+114 silly get cb [ 404,
+114 silly get   { 'content-type': 'application/json',
+114 silly get     'cache-control': 'max-age=0',
+114 silly get     'content-length': '2',
+114 silly get     'accept-ranges': 'bytes',
+114 silly get     date: 'Mon, 05 Feb 2018 07:24:07 GMT',
+114 silly get     via: '1.1 varnish',
+114 silly get     connection: 'keep-alive',
+114 silly get     'x-served-by': 'cache-hkg17935-HKG',
+114 silly get     'x-cache': 'MISS',
+114 silly get     'x-cache-hits': '0',
+114 silly get     'x-timer': 'S1517815446.855518,VS0,VE1819',
+114 silly get     vary: 'Accept-Encoding' } ]
+115 silly fetchPackageMetaData Error: Registry returned 404 for GET on https://registry.npmjs.org/generator-created
+115 silly fetchPackageMetaData     at makeError (/Users/qitmac000420/.nvm/versions/node/v5.10.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+115 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/Users/qitmac000420/.nvm/versions/node/v5.10.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:242:14)
+115 silly fetchPackageMetaData     at Request._callback (/Users/qitmac000420/.nvm/versions/node/v5.10.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+115 silly fetchPackageMetaData     at Request.self.callback (/Users/qitmac000420/.nvm/versions/node/v5.10.0/lib/node_modules/npm/node_modules/request/request.js:199:22)
+115 silly fetchPackageMetaData     at emitTwo (events.js:100:13)
+115 silly fetchPackageMetaData     at Request.emit (events.js:185:7)
+115 silly fetchPackageMetaData     at Request.<anonymous> (/Users/qitmac000420/.nvm/versions/node/v5.10.0/lib/node_modules/npm/node_modules/request/request.js:1036:10)
+115 silly fetchPackageMetaData     at emitOne (events.js:95:20)
+115 silly fetchPackageMetaData     at Request.emit (events.js:182:7)
+115 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/Users/qitmac000420/.nvm/versions/node/v5.10.0/lib/node_modules/npm/node_modules/request/request.js:963:12)
+115 silly fetchPackageMetaData  error for generator-created { [Error: Registry returned 404 for GET on https://registry.npmjs.org/generator-created] pkgid: 'generator-created', statusCode: 404, code: 'E404' }
+116 http 404 https://registry.npmjs.org/generator-cui
+117 verbose headers { 'content-type': 'application/json',
+117 verbose headers   'cache-control': 'max-age=0',
+117 verbose headers   'content-length': '2',
+117 verbose headers   'accept-ranges': 'bytes',
+117 verbose headers   date: 'Mon, 05 Feb 2018 07:24:09 GMT',
+117 verbose headers   via: '1.1 varnish',
+117 verbose headers   connection: 'keep-alive',
+117 verbose headers   'x-served-by': 'cache-hkg17923-HKG',
+117 verbose headers   'x-cache': 'MISS',
+117 verbose headers   'x-cache-hits': '0',
+117 verbose headers   'x-timer': 'S1517815447.305367,VS0,VE1757',
+117 verbose headers   vary: 'Accept-Encoding' }
+118 silly get cb [ 404,
+118 silly get   { 'content-type': 'application/json',
+118 silly get     'cache-control': 'max-age=0',
+118 silly get     'content-length': '2',
+118 silly get     'accept-ranges': 'bytes',
+118 silly get     date: 'Mon, 05 Feb 2018 07:24:09 GMT',
+118 silly get     via: '1.1 varnish',
+118 silly get     connection: 'keep-alive',
+118 silly get     'x-served-by': 'cache-hkg17923-HKG',
+118 silly get     'x-cache': 'MISS',
+118 silly get     'x-cache-hits': '0',
+118 silly get     'x-timer': 'S1517815447.305367,VS0,VE1757',
+118 silly get     vary: 'Accept-Encoding' } ]
+119 silly fetchPackageMetaData Error: Registry returned 404 for GET on https://registry.npmjs.org/generator-cui
+119 silly fetchPackageMetaData     at makeError (/Users/qitmac000420/.nvm/versions/node/v5.10.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+119 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/Users/qitmac000420/.nvm/versions/node/v5.10.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:242:14)
+119 silly fetchPackageMetaData     at Request._callback (/Users/qitmac000420/.nvm/versions/node/v5.10.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+119 silly fetchPackageMetaData     at Request.self.callback (/Users/qitmac000420/.nvm/versions/node/v5.10.0/lib/node_modules/npm/node_modules/request/request.js:199:22)
+119 silly fetchPackageMetaData     at emitTwo (events.js:100:13)
+119 silly fetchPackageMetaData     at Request.emit (events.js:185:7)
+119 silly fetchPackageMetaData     at Request.<anonymous> (/Users/qitmac000420/.nvm/versions/node/v5.10.0/lib/node_modules/npm/node_modules/request/request.js:1036:10)
+119 silly fetchPackageMetaData     at emitOne (events.js:95:20)
+119 silly fetchPackageMetaData     at Request.emit (events.js:182:7)
+119 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/Users/qitmac000420/.nvm/versions/node/v5.10.0/lib/node_modules/npm/node_modules/request/request.js:963:12)
+119 silly fetchPackageMetaData  error for generator-cui { [Error: Registry returned 404 for GET on https://registry.npmjs.org/generator-cui] pkgid: 'generator-cui', statusCode: 404, code: 'E404' }
+120 silly rollbackFailedOptional Starting
+121 silly rollbackFailedOptional Finishing
+122 silly runTopLevelLifecycles Starting
+123 silly runTopLevelLifecycles Finishing
+124 silly install printInstalled
+125 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/generator-created
+125 verbose stack     at makeError (/Users/qitmac000420/.nvm/versions/node/v5.10.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+125 verbose stack     at CachingRegistryClient.<anonymous> (/Users/qitmac000420/.nvm/versions/node/v5.10.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:242:14)
+125 verbose stack     at Request._callback (/Users/qitmac000420/.nvm/versions/node/v5.10.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+125 verbose stack     at Request.self.callback (/Users/qitmac000420/.nvm/versions/node/v5.10.0/lib/node_modules/npm/node_modules/request/request.js:199:22)
+125 verbose stack     at emitTwo (events.js:100:13)
+125 verbose stack     at Request.emit (events.js:185:7)
+125 verbose stack     at Request.<anonymous> (/Users/qitmac000420/.nvm/versions/node/v5.10.0/lib/node_modules/npm/node_modules/request/request.js:1036:10)
+125 verbose stack     at emitOne (events.js:95:20)
+125 verbose stack     at Request.emit (events.js:182:7)
+125 verbose stack     at IncomingMessage.<anonymous> (/Users/qitmac000420/.nvm/versions/node/v5.10.0/lib/node_modules/npm/node_modules/request/request.js:963:12)
+126 verbose statusCode 404
+127 verbose pkgid generator-created
+128 verbose cwd /Users/qitmac000420/Documents/demo/Yeoman/form-generator
+129 error Darwin 16.7.0
+130 error argv "/Users/qitmac000420/.nvm/versions/node/v5.10.0/bin/node" "/Users/qitmac000420/.nvm/versions/node/v5.10.0/bin/npm" "install" "--global" "generator-created" "generator-generator" "generator-wormhole" "generator-cui" "generator-fountain-vue" "generator-fountain-webapp"
+131 error node v5.10.0
+132 error npm  v3.8.3
+133 error code E404
+134 error 404 Registry returned 404 for GET on https://registry.npmjs.org/generator-created
+135 error 404
+136 error 404 'generator-created' is not in the npm registry.
+137 error 404 You should bug the author to publish it (or use the name yourself!)
+138 error 404 Note that you can also install from a
+139 error 404 tarball, folder, http url, or git url.
+140 verbose exit [ 1, true ]
